@@ -1,0 +1,83 @@
+# Ignore build directories
+build/
+debug/
+release/
+*.user
+*.pro.user
+*.qmake.stash
+*.qmake.cache
+
+# Ignore generated Makefiles and build files
+Makefile*
+qtc_*.pro
+*.obj
+*.o
+*.a
+*.lib
+*.so
+*.dll
+*.exe
+*.app
+*.dSYM/
+
+# Ignore QtCreator specific files
+*.autosave
+*.creator.user
+*.creator.user.*
+*.creator.share
+
+# Ignore generated moc, rcc, and ui files
+moc_*.cpp
+moc_*.h
+qrc_*.cpp
+ui_*.h
+
+# Ignore Qt project files
+*.pro.user.*
+*.pro.user
+*.qmake.cache
+*.qmake.stash
+
+# Ignore CMake specific files (if using CMake)
+CMakeLists.txt.user
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+*.cmake
+
+# Ignore output directories
+*.ipch
+*.pch
+*.ilk
+*.iobj
+*.idb
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.swp
+*.bak
+*.old
+
+# Ignore compiled Python files (if you use Python in your project)
+__pycache__/
+*.py[cod]
+
+# Ignore compiled binaries
+*.out
+*.hex
+
+# Ignore coverage reports
+*.gcno
+*.gcda
+*.gcov
+
+# Ignore generated documentation
+*.dox
+*.html
+*.dot
+
+# Ignore additional OS-specific files
+.DS_Store
+Thumbs.db
+desktop.ini
